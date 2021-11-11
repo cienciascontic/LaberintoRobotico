@@ -56,12 +56,15 @@ width: 310px;
   border:0.4px dotted black;
   float: left;
   background-color: grey;
+    background-image: url(./img/pasto.png);
 }
 
 .wall{
   border:0.4px dotted black;
   float: left;
-  background-color: black;
+
+  background-image: url(./img/ladrillo.png);
+  object-fit: contain;
 }
 
 
