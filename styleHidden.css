@@ -21,6 +21,10 @@ body{
 .panelDerecho{
 float:right;
 width: 310px;
+border-style: solid;
+border-radius: 10px;
+border-color: green;
+
 }
 
 
@@ -97,6 +101,15 @@ div#teclas button:hover{
   position: absolute;
   right:250px;
   top:300px;
+  padding:5px;
+   border:2px solid #ccc;
+   -webkit-border-radius: 5px;
+   background-color: green;
+   border-radius: 5px;
+   border-color:yellow;
+   width: 60px;
+   height: 50px;
+
 }
 
 button {

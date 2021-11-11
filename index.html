@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Laberinto Robotico</title>
-    <link rel="stylesheet" href="styleHidden.css">
+        <link rel="stylesheet" href="styleHidden.css">
+    <script src="https://use.fontawesome.com/c029d9608f.js"></script>
+
 </head>
   <body>
 
@@ -19,7 +21,7 @@
             <button disabled></button>
           </div>
           <div class="letra">
-            <button id="botonArriba" onclick="moverArriba()">&#x21e7;</button>
+            <button id="botonArriba" onclick="moverArriba()"><i class="fa fa-arrow-up" aria-hidden="true" style="font-size:40px;color:yellow;text-shadow:2px 2px 4px #000000;"></i></button>
           </div>
           <div class="letra">
             <button disabled></button>
@@ -27,20 +29,26 @@
         </div>
         <div class="fila2">
           <div class="letra">
-            <button id="botonIzquierda" onclick="moverIzquierda()">&#x21e6;</button>
+            <button id="botonIzquierda" onclick="moverIzquierda()"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size:40px;color:yellow;text-shadow:2px 2px 4px #000000;"></i></button>
           </div>
           <div class="letra">
-            <button id="botonAbajo" onclick="moverAbajo()">&#x21e9;</button>
+            <button id="botonAbajo" onclick="moverAbajo()"><i class="fa fa-arrow-down" aria-hidden="true" style="font-size:40px;color:yellow;text-shadow:2px 2px 4px #000000;"></i></button>
           </div>
           <div class="letra">
-            <button id="botonDeracha" onclick="moverDerecha()">&#x21e8;</button>
+            <button id="botonDeracha" onclick="moverDerecha()"><i class="fa fa-arrow-right" aria-hidden="true" style="font-size:40px;color:yellow;text-shadow:2px 2px 4px #000000;"></i></button>
           </div>
         </div>
       </div>
 
     </div>
 
-    <button id="botonConfiguracion" onclick="cambiarDisfraz()">&#x2699;</button>
+    <!-- <button id="botonConfiguracion" onclick="cambiarDisfraz()">Disfraz</button> -->
+
+      <button id="botonConfiguracion" onclick="cambiarDisfraz()">
+          <i class="fa fa-refresh" aria-hidden="true"></i>Disfraz</button>
+
+
+
     <!-- Esto de abajo no lo veria el alumno -->
     <script type="text/javascript" src="1-scriptHiddenA.js"></script>
 
